@@ -3,7 +3,7 @@ About r-gclus
 
 Home: https://CRAN.R-project.org/package=gclus
 
-Package license: GPL (>= 2)
+Package license: GPL-2.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-gclus-feedstock/blob/master/LICENSE.txt)
 
