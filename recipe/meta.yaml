@@ -37,12 +37,13 @@ test:
 
 about:
   home: https://CRAN.R-project.org/package=gclus
-  license: GPL (>= 2)
+  license: GPL-2.0-or-later
   summary: Orders panels in scatterplot matrices and parallel coordinate displays by some merit
     index. Package contains various indices of merit, ordering functions, and enhanced
     versions of pairs and parcoord which color panels according to their merit level.
   license_family: GPL3
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
+  license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
 
 extra:
   recipe-maintainers:
