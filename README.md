@@ -1,11 +1,11 @@
-About r-gclus
-=============
+About r-gclus-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-gclus-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=gclus
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-gclus-feedstock/blob/main/LICENSE.txt)
 
 Summary: Orders panels in scatterplot matrices and parallel coordinate displays by some merit index. Package contains various indices of merit, ordering functions, and enhanced versions of pairs and parcoord which color panels according to their merit level.
 
