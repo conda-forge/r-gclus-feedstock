@@ -1,4 +1,4 @@
-{% set version = '1.3.2' %}
+{% set version = "1.3.3" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/gclus_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/gclus/gclus_{{ version }}.tar.gz
-  sha256: 9cc61cdff206c11213e73afca3d570a7234250cf6044a9202c2589932278e0b3
+  sha256: 6668521a618c4f5c4780004088cd1744c37f5d0a79caa85b2074a4fdd2f68214
 
 build:
-  number: 5
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -36,9 +36,7 @@ test:
 about:
   home: https://CRAN.R-project.org/package=gclus
   license: GPL-2.0-or-later
-  summary: Orders panels in scatterplot matrices and parallel coordinate displays by some merit
-    index. Package contains various indices of merit, ordering functions, and enhanced
-    versions of pairs and parcoord which color panels according to their merit level.
+  summary: Orders panels in scatterplot matrices and parallel coordinate displays by some merit index. Package contains various indices of merit, ordering functions, and enhanced versions of pairs and parcoord which color panels according to their merit level.
   license_family: GPL3
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
